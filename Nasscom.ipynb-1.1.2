@@ -1,0 +1,1151 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMBVwh/9qGWpDsysVq6hsnR",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sanapathisriram/NASSCOM_25211A66f4/blob/main/Nasscom.ipynb-1.1.2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "name=\"Sriram\"\n",
+        "age=19"
+      ],
+      "metadata": {
+        "id": "tcCJVUSk-e2Q"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "3ac8d77f",
+        "outputId": "ae2df044-3d03-4889-f511-b5bef8d30d94"
+      },
+      "source": [
+        "float_value = 3.14159\n",
+        "display(f\"Float value: {float_value}\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "'Float value: 3.14159'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "97815c34",
+        "outputId": "25812da4-e8c3-4031-acf5-3fc7e2fe8766"
+      },
+      "source": [
+        "boolean_value = True\n",
+        "display(f\"Boolean value: {boolean_value}\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "'Boolean value: True'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "81712cbe",
+        "outputId": "d1209b85-5ac1-4266-ff7a-fc78359e59e1"
+      },
+      "source": [
+        "dictionary_value = {'key1': 'value1', 'key2': 123}\n",
+        "display(f\"Dictionary value: {dictionary_value}\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "\"Dictionary value: {'key1': 'value1', 'key2': 123}\""
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "9a00f795",
+        "outputId": "fc33926f-3df4-4101-e1dd-e21f28cd3fe5"
+      },
+      "source": [
+        "list_value = [1, 2, 'hello', False]\n",
+        "display(f\"List value: {list_value}\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "\"List value: [1, 2, 'hello', False]\""
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 36
+        },
+        "id": "91e719c9",
+        "outputId": "6ed65e89-fa34-4677-c21e-5fb9d7e2b8d1"
+      },
+      "source": [
+        "integer_value = 100\n",
+        "display(f\"Integer value: {integer_value}\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "'Integer value: 100'"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "string"
+            }
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "id": "4b3721e4",
+        "outputId": "7148d046-b077-4c2b-d663-6c0a7ddae062"
+      },
+      "source": [
+        "display(float_value)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "3.14159"
+            ]
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "id": "aca165d4",
+        "outputId": "cbd16182-4731-4537-d5ff-a16d5b65559e"
+      },
+      "source": [
+        "display(boolean_value)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "id": "8d17a350",
+        "outputId": "3f1bd06c-4da1-4e32-bc97-66c0b3783278"
+      },
+      "source": [
+        "display(dictionary_value)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "{'key1': 'value1', 'key2': 123}"
+            ]
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "id": "26d81e0e",
+        "outputId": "f7e7cd61-73e5-4cf5-98fa-e10570e22d60"
+      },
+      "source": [
+        "display(list_value)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "[1, 2, 'hello', False]"
+            ]
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "id": "43921223",
+        "outputId": "6a6fcc51-8e4b-4f0f-d950-da51a39c74ec"
+      },
+      "source": [
+        "display(integer_value)"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "100"
+            ]
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "-vx5K79s0qYX",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "6e2df839-6791-4404-f097-706fb53dbcd5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your name: sriram\n",
+            "Hi, sriram\n"
+          ]
+        }
+      ],
+      "source": [
+        "username = input(\"Enter your name: \")\n",
+        "print(\"Hi,\", username)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fruits = ['apple', 'banana', 'cherry', 'apple']\n",
+        "print(\"Original list:\", fruits)\n",
+        "print(\"First fruit:\", fruits[0])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6ZPXciz3BUJ3",
+        "outputId": "02eefc46-e6e7-4d8d-94ce-60ff4554637d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Original list: ['apple', 'banana', 'cherry', 'apple']\n",
+            "First fruit: apple\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "fruits.append('orange')\n",
+        "print(\"After appending:\",fruits)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "tqSICC4WBuEh",
+        "outputId": "10c2317e-c0dd-4fe7-94c3-3419cac0c9ae"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "After appending: ['apple', 'banana', 'cherry', 'apple', 'orange']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "if 'banana' in fruits:\n",
+        "    fruits.remove('banana')\n",
+        "    print(\"After removing 'banana':\", fruits)\n",
+        "else:\n",
+        "    print(\"'banana' was not found in the list.\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "g3Q7KmbnB7uQ",
+        "outputId": "64bf1786-a6ef-48aa-e67d-8346307d363a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "'banana' was not found in the list.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "seta = {1, 2, 3}\n",
+        "setb = {3, 4, 5}\n",
+        "print(\"Union:\", seta | setb)\n",
+        "print(\"Intersection:\", seta & setb)\n",
+        "print(\"Difference (A - B):\", seta - setb)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qoiqXbbJDyqD",
+        "outputId": "a0ccd52e-03c0-4b75-d6e9-4dcca0d7ecc8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Union: {1, 2, 3, 4, 5}\n",
+            "Intersection: {3}\n",
+            "Difference (A - B): {1, 2}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "keys = ['id', 'name', 'marks']\n",
+        "values = [231, 'sriram', 98]\n",
+        "student_info = dict(zip(keys, values))\n",
+        "print(\"Student Info from zip:\", student_info)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ChoRJadlFyXV",
+        "outputId": "872f9a7d-1220-4b72-a29f-e8c3a485d169"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Student Info from zip: {'id': 231, 'name': 'sriram', 'marks': 98}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "def greet_user(name):\n",
+        "    print(f\"Hello, {name}!\")\n",
+        "\n",
+        "greet_user(\"Sri\")\n",
+        "greet_user(\"Ram\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BgnmyWerGsiv",
+        "outputId": "41d7e471-c0ca-4a5f-c464-0bef556f9379"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello, Sri!\n",
+            "Hello, Ram!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def print_names(*names):\n",
+        "    print(\"Names passed:\", names)\n",
+        "    for name in names:\n",
+        "        print(\"Hello\", name)\n",
+        "\n",
+        "print_names(\"Sri\", \"Ram\", \"Sanapathi\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vIno9283H03a",
+        "outputId": "750ad0c3-ebbc-4b9f-f960-9b62cc10288f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Names passed: ('Sri', 'Ram', 'Sanapathi')\n",
+            "Hello Sri\n",
+            "Hello Ram\n",
+            "Hello Sanapathi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import datetime\n",
+        "import random\n",
+        "print(\"---Intermediate Python Core Exercise---\")\n",
+        "print(\"This exercise covers Python fundamentals,data structures,functions,\")\n",
+        "print(\"core libraries(os,datetiem,random),file handline,and exception handling.\")\n",
+        "print(\"-------------------------------------\")\n",
+        "DEVICE_TYPES=['Temperature_Sensor','Humidity_Sensor','Pressure_Sensor','Light_Sensor']\n",
+        "LOCATIONS=['Lab1','Lab2','OfficeA','OfficeB','Warehouse']\n",
+        "READING_RANGES={\n",
+        "    'Temperature_Sensor':(10,30),\n",
+        "    'Humidity_Sensor':(30,80),\n",
+        "    'Pressure_Sensor':(980,1080),\n",
+        "    'Light_Sensor':(100,1000)\n",
+        "}\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qJOzByREIpBp",
+        "outputId": "a12525d8-4c82-47f4-a278-5a6a54a46caf"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "---Intermediate Python Core Exercise---\n",
+            "This exercise covers Python fundamentals,data structures,functions,\n",
+            "core libraries(os,datetiem,random),file handline,and exception handling.\n",
+            "-------------------------------------\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3b49762e",
+        "outputId": "9ca2068a-3c2c-4da9-e89f-98ac16c1cfa8"
+      },
+      "source": [
+        "import random\n",
+        "import datetime\n",
+        "\n",
+        "DEVICE_TYPES = ['Temperature_Sensor', 'Humidity_Sensor', 'Pressure_Sensor', 'Light_Sensor']\n",
+        "LOCATIONS = ['Lab1', 'Lab2', 'OfficeA', 'OfficeB', 'Warehouse']\n",
+        "READING_RANGES = {\n",
+        "    'Temperature_Sensor': (10, 30),\n",
+        "    'Humidity_Sensor': (30, 80),\n",
+        "    'Pressure_Sensor': (980, 1080),\n",
+        "    'Light_Sensor': (100, 1000)\n",
+        "}\n",
+        "\n",
+        "def generate_sensor_data(device_id):\n",
+        "    device_type = random.choice(DEVICE_TYPES)\n",
+        "    location = random.choice(LOCATIONS)\n",
+        "    min_val, max_val = READING_RANGES[device_type]\n",
+        "    reading = round(random.uniform(min_val, max_val), 2)\n",
+        "    timestamp = datetime.datetime.now() - datetime.timedelta(minutes=random.randint(0, 1440))\n",
+        "\n",
+        "    return {\n",
+        "        'device_id': device_id,\n",
+        "        'device_type': device_type,\n",
+        "        'location': location,\n",
+        "        'reading': reading,\n",
+        "        'timestamp': timestamp.strftime('%Y-%m-%d %H:%M:%S')\n",
+        "    }\n",
+        "\n",
+        "# Generate and display 5 sample sensor readings\n",
+        "sample_readings = [generate_sensor_data(f'DEV_{100 + i}') for i in range(5)]\n",
+        "for reading in sample_readings:\n",
+        "    print(reading)"
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'device_id': 'DEV_100', 'device_type': 'Humidity_Sensor', 'location': 'Lab1', 'reading': 77.28, 'timestamp': '2026-10-05 02:52:49'}\n",
+            "{'device_id': 'DEV_101', 'device_type': 'Pressure_Sensor', 'location': 'Lab2', 'reading': 1069.99, 'timestamp': '2026-10-05 04:37:49'}\n",
+            "{'device_id': 'DEV_102', 'device_type': 'Humidity_Sensor', 'location': 'Lab1', 'reading': 39.98, 'timestamp': '2026-10-04 12:47:49'}\n",
+            "{'device_id': 'DEV_103', 'device_type': 'Light_Sensor', 'location': 'OfficeB', 'reading': 609.73, 'timestamp': '2026-10-05 08:14:49'}\n",
+            "{'device_id': 'DEV_104', 'device_type': 'Humidity_Sensor', 'location': 'Lab2', 'reading': 50.2, 'timestamp': '2026-10-04 20:12:49'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "my_list=[10,20,30,40,50]\n",
+        "print(\"Elements from Index 1 to 3:\",my_list[1:3])\n",
+        "print(\"Elements from Index 2 to the end:\",my_list[2:])\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zzLI8HJVJ5T4",
+        "outputId": "42913663-5a23-4ad0-955d-1fda5ec20434"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Elements from Index 1 to 3: [20, 30]\n",
+            "Elements from Index 2 to the end: [30, 40, 50]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bb5cafc2",
+        "outputId": "6b863762-b1fc-4cdc-e39d-eaafbdbda15e"
+      },
+      "source": [
+        "import json\n",
+        "\n",
+        "notebook_path = '/content/1.1.2Working_with_Core_Python_Libraries_OS_,_datetime_,_random_.ipynb'\n",
+        "with open(notebook_path, 'r', encoding='utf-8') as f:\n",
+        "    nb_data = json.load(f)\n",
+        "\n",
+        "# Filter and print Python code cells from the file to inspect them\n",
+        "code_cells = [cell for cell in nb_data.get('cells', []) if cell.get('cell_type') == 'code']\n",
+        "print(f'Total code cells found: {len(code_cells)}')\n",
+        "for i, cell in enumerate(code_cells):\n",
+        "    print(f'\\n--- Cell {i+1} ---')\n",
+        "    print(''.join(cell.get('source', [])))"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Total code cells found: 8\n",
+            "\n",
+            "--- Cell 1 ---\n",
+            "import os\n",
+            "\n",
+            "# Get current working directory\n",
+            "print(\"Current Directory:\", os.getcwd())\n",
+            "\n",
+            "# List files and directories in current directory\n",
+            "print(\"Files and Folders:\", os.listdir())\n",
+            "\n",
+            "# Create a new folder\n",
+            "os.mkdir(\"demo_folder\")  # Creates folder named 'demo_folder'\n",
+            "\n",
+            "# Rename a folder\n",
+            "os.rename(\"demo_folder\", \"renamed_folder\")\n",
+            "\n",
+            "# Remove a folder (make sure it's empty)\n",
+            "os.rmdir(\"renamed_folder\")\n",
+            "\n",
+            "\n",
+            "--- Cell 2 ---\n",
+            "from datetime import datetime, date, timedelta\n",
+            "\n",
+            "# Current date and time\n",
+            "now = datetime.now()\n",
+            "print(\"Now:\", now)\n",
+            "\n",
+            "# Only today's date\n",
+            "today = date.today()\n",
+            "print(\"Today's Date:\", today)\n",
+            "\n",
+            "# Create a specific date\n",
+            "dob = date(2000, 1, 1)\n",
+            "print(\"DOB:\", dob)\n",
+            "\n",
+            "# Date arithmetic\n",
+            "yesterday = today - timedelta(days=1)\n",
+            "tomorrow = today + timedelta(days=1)\n",
+            "\n",
+            "print(\"Yesterday:\", yesterday)\n",
+            "print(\"Tomorrow:\", tomorrow)\n",
+            "\n",
+            "# Format date to string\n",
+            "formatted = now.strftime(\"%d-%m-%Y %H:%M:%S\")\n",
+            "print(\"Formatted DateTime:\", formatted)\n",
+            "\n",
+            "\n",
+            "--- Cell 3 ---\n",
+            "import random\n",
+            "\n",
+            "# Generate random integer between 1 and 100\n",
+            "print(\"Random Int:\", random.randint(1, 100))\n",
+            "\n",
+            "# Generate random float between 0 and 1\n",
+            "print(\"Random Float:\", random.random())\n",
+            "\n",
+            "# Choose a random item from a list\n",
+            "colors = ['red', 'green', 'blue']\n",
+            "print(\"Random Color:\", random.choice(colors))\n",
+            "\n",
+            "# Shuffle a list\n",
+            "random.shuffle(colors)\n",
+            "print(\"Shuffled List:\", colors)\n",
+            "\n",
+            "# Generate a random sample of multiple items\n",
+            "print(\"Sample:\", random.sample(range(1, 50), 5))\n",
+            "\n",
+            "\n",
+            "--- Cell 4 ---\n",
+            "from collections import Counter\n",
+            "\n",
+            "# Count occurrences of elements in a list\n",
+            "fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']\n",
+            "count = Counter(fruits)\n",
+            "print(\"Fruit Count:\", count)\n",
+            "\n",
+            "\n",
+            "--- Cell 5 ---\n",
+            "from collections import defaultdict\n",
+            "\n",
+            "# Returns a default value for missing keys\n",
+            "marks = defaultdict(lambda: 0)\n",
+            "marks['Math'] = 90\n",
+            "marks['Science'] = 80\n",
+            "print(\"English Marks (not set):\", marks['English'])  # Returns 0\n",
+            "\n",
+            "\n",
+            "--- Cell 6 ---\n",
+            "from collections import namedtuple\n",
+            "\n",
+            "# Create a Point object with x and y\n",
+            "Point = namedtuple('Point', 'x y')\n",
+            "p1 = Point(10, 20)\n",
+            "print(\"Point:\", p1)\n",
+            "print(\"x:\", p1.x, \"y:\", p1.y)\n",
+            "\n",
+            "\n",
+            "--- Cell 7 ---\n",
+            "from collections import deque\n",
+            "\n",
+            "# Double-ended queue\n",
+            "dq = deque([1, 2, 3])\n",
+            "dq.append(4)        # Add to right\n",
+            "dq.appendleft(0)    # Add to left\n",
+            "dq.pop()            # Remove from right\n",
+            "dq.popleft()        # Remove from left\n",
+            "print(\"Deque after operations:\", dq)\n",
+            "\n",
+            "\n",
+            "--- Cell 8 ---\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "03b9f872",
+        "outputId": "58713562-25a9-4cde-ea86-e74b3ca33b23"
+      },
+      "source": [
+        "import os\n",
+        "\n",
+        "# Get current working directory\n",
+        "print(\"Current Directory:\", os.getcwd())\n",
+        "\n",
+        "# List files and directories in current directory\n",
+        "print(\"Files and Folders:\", os.listdir())\n",
+        "\n",
+        "# Create a new folder\n",
+        "os.mkdir(\"demo_folder\")  # Creates folder named 'demo_folder'\n",
+        "\n",
+        "# Rename a folder\n",
+        "os.rename(\"demo_folder\", \"renamed_folder\")\n",
+        "\n",
+        "# Remove a folder (make sure it's empty)\n",
+        "os.rmdir(\"renamed_folder\")"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Current Directory: /content\n",
+            "Files and Folders: ['.config', '1.1.2Working_with_Core_Python_Libraries_OS_,_datetime_,_random_.ipynb', 'sample_data']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "d128ad96",
+        "outputId": "f66de549-d362-4480-d537-3b30fe55929d"
+      },
+      "source": [
+        "from datetime import datetime, date, timedelta\n",
+        "\n",
+        "# Current date and time\n",
+        "now = datetime.now()\n",
+        "print(\"Now:\", now)\n",
+        "\n",
+        "# Only today's date\n",
+        "today = date.today()\n",
+        "print(\"Today's Date:\", today)\n",
+        "\n",
+        "# Create a specific date\n",
+        "dob = date(2000, 1, 1)\n",
+        "print(\"DOB:\", dob)\n",
+        "\n",
+        "# Date arithmetic\n",
+        "yesterday = today - timedelta(days=1)\n",
+        "tomorrow = today + timedelta(days=1)\n",
+        "\n",
+        "print(\"Yesterday:\", yesterday)\n",
+        "print(\"Tomorrow:\", tomorrow)\n",
+        "\n",
+        "# Format date to string\n",
+        "formatted = now.strftime(\"%d-%m-%Y %H:%M:%S\")\n",
+        "print(\"Formatted DateTime:\", formatted)"
+      ],
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Now: 2026-10-05 08:20:49.608740\n",
+            "Today's Date: 2026-10-05\n",
+            "DOB: 2000-01-01\n",
+            "Yesterday: 2026-10-04\n",
+            "Tomorrow: 2026-10-06\n",
+            "Formatted DateTime: 05-10-2026 08:20:49\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6e65645a",
+        "outputId": "e3d655f1-a970-40bd-8109-1fdba76bc613"
+      },
+      "source": [
+        "import random\n",
+        "\n",
+        "# Generate random integer between 1 and 100\n",
+        "print(\"Random Int:\", random.randint(1, 100))\n",
+        "\n",
+        "# Generate random float between 0 and 1\n",
+        "print(\"Random Float:\", random.random())\n",
+        "\n",
+        "# Choose a random item from a list\n",
+        "colors = ['red', 'green', 'blue']\n",
+        "print(\"Random Color:\", random.choice(colors))\n",
+        "\n",
+        "# Shuffle a list\n",
+        "random.shuffle(colors)\n",
+        "print(\"Shuffled List:\", colors)\n",
+        "\n",
+        "# Generate a random sample of multiple items\n",
+        "print(\"Sample:\", random.sample(range(1, 50), 5))"
+      ],
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Random Int: 79\n",
+            "Random Float: 0.06545683548188441\n",
+            "Random Color: blue\n",
+            "Shuffled List: ['blue', 'green', 'red']\n",
+            "Sample: [20, 35, 3, 15, 24]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ff5f4809",
+        "outputId": "0c10b843-3182-4d0f-e7a8-d7e62f039276"
+      },
+      "source": [
+        "from collections import Counter\n",
+        "\n",
+        "# Count occurrences of elements in a list\n",
+        "fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']\n",
+        "count = Counter(fruits)\n",
+        "print(\"Fruit Count:\", count)"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Fruit Count: Counter({'apple': 3, 'banana': 2, 'orange': 1})\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "6cd8102b",
+        "outputId": "0d2ecb87-6ede-4377-da03-fac6d1aaf79e"
+      },
+      "source": [
+        "from collections import defaultdict\n",
+        "\n",
+        "# Returns a default value for missing keys\n",
+        "marks = defaultdict(lambda: 0)\n",
+        "marks['Math'] = 90\n",
+        "marks['Science'] = 80\n",
+        "print(\"English Marks (not set):\", marks['English'])  # Returns 0"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "English Marks (not set): 0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3ca68e47",
+        "outputId": "bffdd0aa-4667-4532-9706-1d3c4d2ea899"
+      },
+      "source": [
+        "from collections import namedtuple\n",
+        "\n",
+        "# Create a Point object with x and y\n",
+        "Point = namedtuple('Point', 'x y')\n",
+        "p1 = Point(10, 20)\n",
+        "print(\"Point:\", p1)\n",
+        "print(\"x:\", p1.x, \"y:\", p1.y)"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Point: Point(x=10, y=20)\n",
+            "x: 10 y: 20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "eaf4e093",
+        "outputId": "5131bc06-e659-4052-84d4-39a115b8b50d"
+      },
+      "source": [
+        "from collections import deque\n",
+        "\n",
+        "# Double-ended queue\n",
+        "dq = deque([1, 2, 3])\n",
+        "dq.append(4)        # Add to right\n",
+        "dq.appendleft(0)    # Add to left\n",
+        "dq.pop()            # Remove from right\n",
+        "dq.popleft()        # Remove from left\n",
+        "print(\"Deque after operations:\", dq)"
+      ],
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Deque after operations: deque([1, 2, 3])\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f0a39748",
+        "outputId": "f0dea689-6b52-423a-c433-7e150695be67"
+      },
+      "source": [
+        "import os\n",
+        "print(\"Current Directory:\", os.getcwd())\n",
+        "print(\"Files and Folders:\", os.listdir())\n",
+        "os.mkdir(\"demo_folder\")\n",
+        "os.rename(\"demo_folder\", \"renamed_folder\")\n",
+        "os.rmdir(\"renamed_folder\")\n",
+        "\n",
+        "from datetime import datetime, date, timedelta\n",
+        "now = datetime.now()\n",
+        "print(\"Now:\", now)\n",
+        "today = date.today()\n",
+        "print(\"Today's Date:\", today)\n",
+        "dob = date(2000, 1, 1)\n",
+        "print(\"DOB:\", dob)\n",
+        "yesterday = today - timedelta(days=1)\n",
+        "tomorrow = today + timedelta(days=1)\n",
+        "print(\"Yesterday:\", yesterday)\n",
+        "print(\"Tomorrow:\", tomorrow)\n",
+        "formatted = now.strftime(\"%d-%m-%Y %H:%M:%S\")\n",
+        "print(\"Formatted DateTime:\", formatted)\n",
+        "\n",
+        "import random\n",
+        "print(\"Random Int:\", random.randint(1, 100))\n",
+        "print(\"Random Float:\", random.random())\n",
+        "colors = ['red', 'green', 'blue']\n",
+        "print(\"Random Color:\", random.choice(colors))\n",
+        "random.shuffle(colors)\n",
+        "print(\"Shuffled List:\", colors)\n",
+        "print(\"Sample:\", random.sample(range(1, 50), 5))\n",
+        "\n",
+        "from collections import Counter\n",
+        "fruits = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']\n",
+        "count = Counter(fruits)\n",
+        "print(\"Fruit Count:\", count)\n",
+        "\n",
+        "from collections import defaultdict\n",
+        "marks = defaultdict(lambda: 0)\n",
+        "marks['Math'] = 90\n",
+        "marks['Science'] = 80\n",
+        "print(\"English Marks (not set):\", marks['English'])\n",
+        "\n",
+        "from collections import namedtuple\n",
+        "Point = namedtuple('Point', 'x y')\n",
+        "p1 = Point(10, 20)\n",
+        "print(\"Point:\", p1)\n",
+        "print(\"x:\", p1.x, \"y:\", p1.y)\n",
+        "\n",
+        "from collections import deque\n",
+        "dq = deque([1, 2, 3])\n",
+        "dq.append(4)\n",
+        "dq.appendleft(0)\n",
+        "dq.pop()\n",
+        "dq.popleft()\n",
+        "print(\"Deque after operations:\", dq)"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Current Directory: /content\n",
+            "Files and Folders: ['.config', '1.1.2Working_with_Core_Python_Libraries_OS_,_datetime_,_random_.ipynb', 'sample_data']\n",
+            "Now: 2026-10-05 08:21:50.115668\n",
+            "Today's Date: 2026-10-05\n",
+            "DOB: 2000-01-01\n",
+            "Yesterday: 2026-10-04\n",
+            "Tomorrow: 2026-10-06\n",
+            "Formatted DateTime: 05-10-2026 08:21:50\n",
+            "Random Int: 66\n",
+            "Random Float: 0.037177051349231105\n",
+            "Random Color: green\n",
+            "Shuffled List: ['red', 'blue', 'green']\n",
+            "Sample: [7, 13, 49, 22, 4]\n",
+            "Fruit Count: Counter({'apple': 3, 'banana': 2, 'orange': 1})\n",
+            "English Marks (not set): 0\n",
+            "Point: Point(x=10, y=20)\n",
+            "x: 10 y: 20\n",
+            "Deque after operations: deque([1, 2, 3])\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
